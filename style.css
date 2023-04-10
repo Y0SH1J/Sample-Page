@@ -32,8 +32,11 @@ body {
 
 }
 
-li {
-    margin: 0 0 0 20px;
+.secI-text.li {
+    margin: 0 0 0 50px;
+    padding: 0;
+    margin: 0;
+    text-align: left;
 }
 
 a {
@@ -48,7 +51,7 @@ a {
     gap: 50px;
 }
 
-p {
+#header-bottom {
     font-size: 48px;
     font-weight: bolder;
     margin: 0;
@@ -78,3 +81,72 @@ p {
 
 }
 
+.section-1 {
+    text-align: center;
+}
+
+#section-1 {
+    margin-bottom: 50px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 0 200px 0 200px;
+}
+
+#card {
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    border-color: #1F2937;
+    border: 2px solid;
+    margin: 0;
+    padding: 0;
+}
+.info-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.info-card {
+    max-width: 250px;
+}
+
+#list-head {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: #2e3436;
+}
+
+.quote-section{
+    padding: 20px;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    text-align: center;
+}
+figcaption {
+    font-size: 24px;
+}
+q {
+    color: #1F2937;
+}
+
+.footer {
+    background-color: #3882F6;
+    margin: 50px 200px 50px 200px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.button{
+    background-color: none;
+    border: 2px solid white;
+}
+.footer-head{
+    display: flex;
+    flex-direction: column;
+    color: #E5E7EB;
+}
