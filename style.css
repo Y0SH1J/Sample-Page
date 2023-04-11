@@ -29,14 +29,10 @@ body {
     display: flex;
     font-weight: bold;
     font-size: 18px;
-
 }
 
-.secI-text.li {
+.header-links li {
     margin: 0 0 0 50px;
-    padding: 0;
-    margin: 0;
-    text-align: left;
 }
 
 a {
@@ -93,6 +89,12 @@ a {
     padding: 0 200px 0 200px;
 }
 
+.secI-text {
+    padding: 0;
+    margin-left: 30px;
+    text-align: left;
+}
+
 #card {
     width: 200px;
     height: 150px;
@@ -137,7 +139,7 @@ q {
     margin: 50px 200px 50px 200px;
     padding: 50px;
     display: flex;
-    justify-content: space-between;
+    gap: 450px;
     border-radius: 10px;
 }
 
