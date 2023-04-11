@@ -152,3 +152,11 @@ q {
     flex-direction: column;
     color: #E5E7EB;
 }
+
+.copyright {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 50px 0;
+}
